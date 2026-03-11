@@ -329,8 +329,8 @@
     },
     {
       "atomType": "Label",
-      "x": 0.6596417281348788,
-      "y": 0.6927710843373494,
+      "x": 0.6607989167230873,
+      "y": 0.7014925373134329,
       "uniqueID": "id-950",
       "ioValues": [
         {
@@ -349,7 +349,7 @@
         "z": 0
       },
       "text": "label",
-      "color": "#F3EFEF"
+      "color": "#484848"
     },
     {
       "atomType": "Rotate",
@@ -367,8 +367,7 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 30,
-          "currentEquation": "30"
+          "ioValue": 30
         },
         {
           "name": "z-axis degrees",
@@ -740,6 +739,30 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Label",
+      "x": 0.48679756262694657,
+      "y": 0.8626865671641791,
+      "uniqueID": "id-1072",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "start": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "end": {
+        "x": 10,
+        "y": 10,
+        "z": 0
+      },
+      "text": "label",
+      "color": "#F3EFEF"
     }
   ],
   "allConnectors": [
@@ -822,6 +845,11 @@
       "ap2Name": "input",
       "ap1ID": "id-222",
       "ap2ID": "id-332"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-222",
+      "ap2ID": "id-1072"
     },
     {
       "ap2Name": "geometry1",
