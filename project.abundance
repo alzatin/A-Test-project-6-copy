@@ -7,7 +7,7 @@
   "ioValues": [
     {
       "name": "Width",
-      "ioValue": 10
+      "ioValue": 0
     },
     {
       "name": "WoodThick",
@@ -36,7 +36,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10,
+          "ioValue": 0,
           "currentEquation": "Width"
         },
         {
@@ -53,7 +53,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 5,
+          "ioValue": 0,
           "currentEquation": "Width/2"
         },
         {
@@ -64,8 +64,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.38132022471910115,
-      "y": 0.8493975903614458,
+      "x": 0.3012863913337847,
+      "y": 0.8029850746268657,
       "uniqueID": "a49d04fd-a332-4ca1-a935-e8420dc58731",
       "ioValues": [
         {
@@ -349,7 +349,7 @@
         "z": 0
       },
       "text": "label",
-      "color": "#484848"
+      "color": "#F3EFEF"
     },
     {
       "atomType": "Rotate",
@@ -377,8 +377,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.4592696629213483,
-      "y": 0.5963855421686747,
+      "x": 0.41570751523358157,
+      "y": 0.617910447761194,
       "uniqueID": "id-222",
       "name": "Cut Corner",
       "ioValues": [
@@ -681,7 +681,7 @@
       "ioValues": [
         {
           "name": "Wood",
-          "ioValue": 10,
+          "ioValue": 0,
           "currentEquation": "Width"
         }
       ],
@@ -742,8 +742,8 @@
     },
     {
       "atomType": "Label",
-      "x": 0.48679756262694657,
-      "y": 0.8626865671641791,
+      "x": 0.5077860528097495,
+      "y": 0.47462686567164175,
       "uniqueID": "id-1072",
       "ioValues": [
         {
@@ -763,6 +763,30 @@
       },
       "text": "label",
       "color": "#F3EFEF"
+    },
+    {
+      "atomType": "Label",
+      "x": 0.5010155721056195,
+      "y": 0.7880597014925372,
+      "uniqueID": "id-1078",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "start": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "end": {
+        "x": 10,
+        "y": 10,
+        "z": 0
+      },
+      "text": "label",
+      "color": "#484848"
     }
   ],
   "allConnectors": [
